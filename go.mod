@@ -1,3 +1,3 @@
-module github.com/Narasimha1997/ratelimiter
+module github.com/fufuok/ratelimiter
 
 go 1.15

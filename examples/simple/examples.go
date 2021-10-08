@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Narasimha1997/ratelimiter"
+	"github.com/fufuok/ratelimiter"
 )
 
 func GenericRateLimiter() {

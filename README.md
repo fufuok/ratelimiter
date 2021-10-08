@@ -1,3 +1,12 @@
+# 通用滑动时间窗口限流器算法
+
+*forked from Narasimha1997/ratelimiter*
+
+## 变动
+
+1. 增加检查 `l.limit == 0 || l.size < time.Millisecond` 返回失败
+2. 增加 `AttributeBasedLimiter.MustShouldAllow`, key 不存在时自动创建
+
 # ratelimiter
 
 ![Tests](https://github.com/Narasimha1997/ratelimiter/actions/workflows/test.yml/badge.svg)
